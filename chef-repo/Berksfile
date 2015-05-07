@@ -8,3 +8,4 @@ cookbook 'sudo'
 cookbook 'chef-solo-search'
 
 cookbook 'docker'
+cookbook 'redisio'

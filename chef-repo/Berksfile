@@ -10,6 +10,7 @@ cookbook 'chef-solo-search'
 cookbook 'docker'
 cookbook 'redisio'
 cookbook 'phantomjs'
+cookbook 'java'
 
 #cookbook 'mesos'
 #cookbook 'etcd'

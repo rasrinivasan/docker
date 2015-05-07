@@ -1,0 +1,14 @@
+all: roles cookbooks data_bags
+
+.PHONY: roles cookbooks data_bags
+
+roles:
+	knife role from file roles/base.rb
+
+cookbooks:
+	berks install
+	berks vendor cookbooks
+	berks upload
+
+data_bags:
+	knife data bag from file users data_bags/users

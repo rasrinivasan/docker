@@ -1,0 +1,10 @@
+source "https://supermarket.getchef.com"
+
+cookbook 'apt'
+cookbook 'git'
+
+cookbook 'users'
+cookbook 'sudo'
+cookbook 'chef-solo-search'
+
+cookbook 'docker'

@@ -14,7 +14,7 @@ cookbook 'java'
 
 #cookbook 'mesos'
 #cookbook 'etcd'
-cookbook 'mysql', '~> 6.0.22'
+cookbook 'mysql', '= 5.6.3'
 #cookbook 'ngnix'
 #cookbook 'nexus'
 cookbook 'hadoop'

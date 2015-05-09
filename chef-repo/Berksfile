@@ -12,7 +12,7 @@ cookbook 'redisio'
 cookbook 'phantomjs'
 cookbook 'java'
 
-cookbook 'ngnix', git: 'https://github.com/miketheman/nginx.git'
+cookbook 'nginx', git: 'https://github.com/miketheman/nginx.git'
 #cookbook 'mesos'
 #cookbook 'etcd'
 cookbook 'postgresql', '~> 3.4.18'

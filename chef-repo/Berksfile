@@ -16,7 +16,7 @@ cookbook 'nginx', git: 'https://github.com/miketheman/nginx.git'
 #cookbook 'mesos'
 #cookbook 'etcd'
 cookbook 'postgresql', '~> 3.4.18'
-cookbook 'yum-mysql-community', git: 'https://github.com/chef-cookbooks/yum-mysql-community.git'
+#cookbook 'yum-mysql-community', git: 'https://github.com/chef-cookbooks/yum-mysql-community.git'
 #cookbook 'mysql', '= 5.6.3' #doesn't work
 #cookbook 'nexus'
 cookbook 'hadoop'

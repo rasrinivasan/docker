@@ -4,5 +4,5 @@ Dir.chdir("/var/demo/apps/chef-repo") do
    system "berks install"
    system "berks vendor cookbooks/"
 end
-puts "subshell task completed. Look for errors."
+puts "Subshell task completed. Lookout for any errors."
 exit 0
